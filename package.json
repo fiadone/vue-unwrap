@@ -30,7 +30,8 @@
     "test": "vitest",
     "typecheck": "vue-tsc --noEmit",
     "release": "bumpp",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "commit": "cz"
   },
   "peerDependencies": {
     "vue": "^3.5.0"
