@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { useUnwrap } from './useUnwrap'
 
-const { $el, children, Unwrap } = useUnwrap()
+const { children, root, Unwrap } = useUnwrap()
 
-defineExpose({ $el, children })
+defineExpose({ children, root })
 </script>
 
 <template>
